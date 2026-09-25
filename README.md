@@ -16,40 +16,6 @@ streamlit-dashboard/
 └── README.md
 ```
 
----
-
-## 🚀 Deploy to Streamlit Community Cloud
-
-### Step 1 — Push to GitHub
-
-```bash
-# Initialize git repo (if not already done)
-git init
-git add .
-git commit -m "Initial commit: Pulse Analytics dashboard"
-
-# Create a GitHub repo (via github.com or gh CLI), then:
-git remote add origin https://github.com/YOUR_USERNAME/streamlit-dashboard.git
-git branch -M main
-git push -u origin main
-```
-
-### Step 2 — Deploy on share.streamlit.io
-
-1. Go to **[share.streamlit.io](https://share.streamlit.io)** and sign in with GitHub
-2. Click **"New app"**
-3. Fill in:
-   - **Repository**: `YOUR_USERNAME/streamlit-dashboard`
-   - **Branch**: `main`
-   - **Main file path**: `app.py`
-4. Click **"Deploy!"**
-
-✅ Your app will be live at:
-`https://YOUR_USERNAME-streamlit-dashboard-app-XXXX.streamlit.app`
-
-Streamlit Community Cloud is **free** and auto-redeploys on every `git push`.
-
----
 
 ## 💻 Run Locally
 
